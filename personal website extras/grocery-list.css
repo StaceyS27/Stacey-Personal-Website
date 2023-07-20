@@ -1,0 +1,12 @@
+h2 {
+    border-style: solid; 
+    border-color:black;
+    border-width: 1px;
+    background-color: rgb(234, 188, 119);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.foodList {
+    padding-left: 1%;
+}
