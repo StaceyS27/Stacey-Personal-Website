@@ -1,0 +1,54 @@
+body {
+    padding: 0.5%;
+    margin-top: 11%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    border-bottom-style: solid;
+    width: 100%;
+    background-color: #a6808c;
+    padding-left: 0%;
+}
+
+nav{
+    margin-left: 30%;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+}
+
+h3, h4, p {
+    font-size: x-large;
+}
+
+img {
+    max-height: 40%;
+    max-width: 40%;
+    margin-left: 25%;       
+}
+
+html {
+    background-color:#ccb7ae;
+}
+
+h4{
+    border-style: solid;
+    background-color: #d6cfcb;
+    padding: 1%;
+}
+
+#onPage {
+    text-decoration: unde;
+}
+
+
+
