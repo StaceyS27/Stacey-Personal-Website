@@ -1,0 +1,50 @@
+body {
+    padding: 0.5%;
+    margin-top: 11%;
+    background-color: #ccb7ae;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    border-bottom-style: solid;
+    width: 100%;
+    margin-left: 0%;
+    background-color: #a6808c; 
+}
+
+nav{
+    margin-left: 30%;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 3px;
+}
+
+h3 {
+    font-size: x-large;
+    text-align: center;
+}
+p { font-size: 40px;
+    padding: 2%;
+    border-style: solid;
+    margin: 5%;
+    text-align: center;
+    padding-top: 3%;
+    background-color: #d6cfcb;
+   
+}
+
+section {
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+}
