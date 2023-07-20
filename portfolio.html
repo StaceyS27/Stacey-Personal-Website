@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+
+    <style>
+        article {
+            padding: 0.5%;
+            margin-top: 8%; }
+        
+        html {
+            background-color:#ccb7ae;
+        }
+
+        header {
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0%;
+            border-bottom-style: solid;
+            width: 100%;
+            background-color: #a6808c;
+            padding-left: 0%;
+        }
+
+        nav {
+            margin-left: 30%;
+        }
+
+        .nav {
+            text-decoration: none;
+            color: black;
+            margin: 3px
+        }
+
+        h1,
+        .nav {
+            font-size: xx-large;
+            font-weight: 600;
+        }
+
+        .detailAndImage {
+            display: flex;
+
+        }
+
+        img {
+            max-width: 23%;
+            max-height: 23%;
+        }
+
+        p {
+            font-size: x-large;
+            margin-right: 4%;
+        }
+
+        #diffPara {
+            margin-left: 4%;
+        }
+
+        h3, h4 { font-size: x-large;}
+
+        h4{
+            border-style: solid;
+            background-color: #d6cfcb ;
+            padding: 1%;
+        }
+
+        #onPage{
+            text-decoration: underline;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <header>
+        <h1>Stacey Sanchez</h1>
+
+        <nav>
+            <a class="nav" href="./index.html">Home</a>
+            <a class="nav" href="./about.html">About</a>
+            <a id="onPage" class="nav" href="./portfolio.html">Portfolio</a>
+        </nav>
+    </header>
+
+    <article>
+        <h3>Things I have Built..</h3>
+
+        <section>
+            <h4>Zoo Problem</h4>
+            <div class="detailAndImage">
+                <p>For this project, we practiced important HTML concepts
+                    such as the use of headings, semantic tags, and making ordered lists.
+                    Additionally, we practiced inserting photos and external links to our
+                    HTML files. With the use of these topics, we created a webpage for new
+                    zookeepers so that they may familiarize themselves with the different animals
+                    and learn more about them.
+                </p>
+                <img src="../../personal website extras/zoo project screenshot.jpeg" />
+            </div>
+            <a href="../../block05/zoo-problem.html">Zoo Problem Project Link</a>
+        </section>
+
+        <section>
+            <h4>Grocery List</h4>
+            <div class="detailAndImage">
+                <img src="../../personal website extras/grocery list screenshot.jpeg">
+                <p id="diffPara">For this project, we again practiced the use of different HTML tags, including
+                    unordered and
+                    ordered lists. Additionally, semantic tags were used to create sections for the
+                    different types of food items to be purchased. Unlike the Zoo Problem project, howevever, CSS
+                    styling
+                    was added and linked to the HTML file. Properties such as font and background color were applied.
+                    The box
+                    model
+                    was also used to add borders and spacing between sections.
+                </p>
+            </div>
+            <a href="../../block06/grocery-list.html">Grocery List Project Link</a>
+        </section>
+
+        <section>
+            <h4>Secure the Vault</h4>
+            <div class="detailAndImage">
+            <p>Lastly, for this project, we began our practice of JavaScript. We created variables that would hold the
+                value of the resulting arithmetic and with that, also practiced using the different artihmetic operators. The
+                variable values had to be equal to one of the codes provided. The goal was to display an alert message on a webpage which
+                would inform webpage visitors of the 3 codes. The message was created using the alert function, 
+                which took in variable and strings in order to create its output - the message with the secret combination.
+            </p>
+            <img src="../../personal website extras/secure the vault screenshot.png">
+        </div>
+            <a href="../../block07/secure the vault.html">Secure the Vault Project Link</a>
+        </article>
+    </article>
+
+
+</body>
+
+</html>
