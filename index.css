@@ -47,6 +47,8 @@ section {
 
 img {
     border-radius: 50%;
+    max-width: 40%;
+    max-height:40% ;
 }
 
 @media (max-width: 700px) {
