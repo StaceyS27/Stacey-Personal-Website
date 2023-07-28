@@ -1,6 +1,6 @@
 body {
     padding: 0.5%;
-    margin-top: 11%;
+    margin-top: 7%;
 }
 
 header {
@@ -37,7 +37,7 @@ img {
 }
 
 html {
-    background-color:#ccb7ae;
+    background-color:#ccb7ae;  
 }
 
 h4{
@@ -47,8 +47,24 @@ h4{
 }
 
 #onPage {
-    text-decoration: unde;
+    text-decoration: underline;
 }
 
+@media (max-width:758px) {
+    body {
+        margin-top: 15%;
+    }
+}
 
+@media (max-width:620px) {
+    body {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width:463px) {
+    body {
+        margin-top: 25%;
+    }
+}
 

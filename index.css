@@ -47,4 +47,24 @@ section {
 
 img {
     border-radius: 50%;
+    max-width: 40%;
+    max-height:40% ;
+}
+
+@media (max-width: 760px) {
+    section {
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        align-items: center;
+    }
+    body {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 471px) {
+    body {
+        margin-top: 30%;
+    }
 }
