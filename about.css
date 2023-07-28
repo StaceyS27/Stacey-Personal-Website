@@ -52,11 +52,17 @@ h4{
 
 @media (max-width:758px) {
     body {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width:620px) {
+    body {
         margin-top: 20%;
     }
 }
 
-@media (max-width:473px) {
+@media (max-width:463px) {
     body {
         margin-top: 25%;
     }
