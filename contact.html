@@ -6,6 +6,10 @@
     <title>Contact Page</title>
 
     <style>
+        body {
+            position: relative;
+            margin-top: 10%;
+        }
         header {
             display: flex;
             align-items: center;
@@ -33,6 +37,29 @@
         a:hover {
             background-color: #d6cfcb;
         }
+        html {
+            background-color:#ccb7ae;
+        }
+        h3, p, label {
+            font-size: x-large;
+        }
+        label {
+            font-weight: 600;
+        }
+        input {
+            font-size: large;
+            background-color:#d6cfcb;
+            padding: 0.5%;
+        }
+        #submit {
+            font-weight: 600;
+            background-color: #a6808c;
+        }
+        textarea {
+            font-size: large;
+            background-color: #d6cfcb;
+            padding: 0.5%;
+        }
 
 
     </style>
@@ -56,16 +83,16 @@
     
     <form action="./requestSubmitted.html" target="blank" method="GET">
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name"><br><br>
 
         <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
+        <input type="email" id="email" name="email"><br><br>
 
         <label for="message">Write to Me Here!</label><br>
-        <textarea id="message" name="message" rows="15" cols="25">
-        </textarea> <br>
+        <textarea id="message" name="message" rows="15" cols="28">
+        </textarea> <br><br>
 
-        <input type="submit" value="Submit">
+        <input id="submit" type="submit" value="Submit">
     </form>
 
     
