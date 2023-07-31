@@ -27,6 +27,10 @@ a {
     margin: 3px;
 }
 
+a:hover {
+    background-color: #d6cfcb;
+}
+
 h3 {
     font-size: x-large;
     text-align: center;
@@ -51,7 +55,13 @@ img {
     max-height:40% ;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 866px) {
+    body {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 857px) {
     section {
         display: flex;
         flex-wrap: wrap-reverse;
@@ -63,8 +73,8 @@ img {
     }
 }
 
-@media (max-width: 471px) {
+@media (max-width: 497px) {
     body {
-        margin-top: 30%;
+        margin-top: 40%;
     }
 }
