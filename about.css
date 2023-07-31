@@ -20,6 +20,10 @@ nav{
     font-weight: 600;
 }
 
+a:hover {
+    background-color: #d6cfcb;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -50,7 +54,7 @@ h4{
     text-decoration: underline;
 }
 
-@media (max-width:758px) {
+@media (max-width:933px) {
     body {
         margin-top: 15%;
     }
@@ -66,5 +70,11 @@ h4{
     body {
         margin-top: 25%;
     }
+}
+
+@media (max-width: 428px) {
+   body {
+    margin-top: 45%;
+   }
 }
 
