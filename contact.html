@@ -4,12 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Page</title>
+
+    <style>
+        body {
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top: 10%;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            position: fixed;
+            top: 0%;
+            border-bottom-style: solid;
+            width: 100%;
+            background-color: #a6808c;
+            padding-left: 0%;
+        }
+
+        nav {
+            margin-left: 30%;
+        }
+        .nav {
+            text-decoration: none;
+            color: black;
+            margin: 3px
+        }
+        h1,
+        .nav {
+            font-size: xx-large;
+            font-weight: 600;
+        }
+        a:hover {
+            background-color: #d6cfcb;
+        }
+        html {
+            background-color:#ccb7ae;
+        }
+        h3, label {
+            font-size: x-large;
+        }
+        label {
+            font-weight: 600;
+        }
+        input {
+            font-size: large;
+            background-color:#d6cfcb;
+            box-sizing:border-box;
+            padding:0.5%;
+        }
+        #submit {
+            font-weight: 600;
+            background-color: #a6808c;
+        }
+        textarea {
+            font-size: large;
+            background-color: #d6cfcb;
+            padding: 0.5%;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 915px) {
+            body {
+                margin-top: 20%;
+            }
+        }
+
+        @media(max-width:540px) {
+            body {
+                margin-top: 40%;
+            }
+        }
+
+    </style>
 </head>
 
 <header>
     <h1>Stacey Sanchez</h1>
+    <nav>
+        <a class="nav" href="./index.html">Home</a>
+        <a class="nav" href="./about.html">About</a>
+        <a class="nav" href="./portfolio.html">Portfolio</a>
+        <a style="text-decoration: underline" class="nav" href="./contact.html">Contact</a>
+    </nav>
 </header>
+
 <body>
+    <h3>Contact Me!</h3>
+    <form action="./requestSubmitted.html" target="blank" method="GET">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label style="margin-left: 18%;" for="message">Write to Me Here!</label><br>
+        <textarea id="message" name="message" rows="15" cols="28">
+        </textarea> <br><br>
+
+        <input style="margin-left: 38%;"id="submit" type="submit" value="Submit">
+    </form>
+
     
 </body>
 </html>
