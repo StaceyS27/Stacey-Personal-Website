@@ -52,7 +52,8 @@
         input {
             font-size: large;
             background-color:#d6cfcb;
-            padding: 0.5%;
+            box-sizing:border-box;
+            padding:0.5%;
         }
         #submit {
             font-weight: 600;
@@ -62,6 +63,19 @@
             font-size: large;
             background-color: #d6cfcb;
             padding: 0.5%;
+            box-sizing: border-box;
+        }
+
+        @media (max-width: 915px) {
+            body {
+                margin-top: 20%;
+            }
+        }
+
+        @media(max-width:540px) {
+            body {
+                margin-top: 40%;
+            }
         }
 
     </style>
